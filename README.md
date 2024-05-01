@@ -65,3 +65,5 @@ present(flutterViewController, animated: true, completion: nil)
 <key>NSPhotoLibraryUsageDescription</key>
 <string>Allow access to photo library</string>
 ```
+
+- [Youtube Embed flutter into native iOS app](https://www.youtube.com/watch?v=lUtlMV0NJw4)
