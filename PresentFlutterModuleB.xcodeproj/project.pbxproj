@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DFD84862BE2B94F001FF66E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFD84852BE2B94F001FF66E /* AppDelegate.swift */; };
+		9DFD84882BE2B94F001FF66E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFD84872BE2B94F001FF66E /* SceneDelegate.swift */; };
+		9DFD848A2BE2B94F001FF66E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFD84892BE2B94F001FF66E /* ViewController.swift */; };
+		9DFD848D2BE2B94F001FF66E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9DFD848C2BE2B94F001FF66E /* Base */; };
+		9DFD848F2BE2B950001FF66E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DFD848E2BE2B950001FF66E /* Assets.xcassets */; };
+		9DFD84922BE2B950001FF66E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9DFD84912BE2B950001FF66E /* Base */; };
+		9DFD852A2BE2BDEB001FF66E /* DKImagePickerController.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DFD851F2BE2BDEA001FF66E /* DKImagePickerController.xcframework */; };
+		9DFD852B2BE2BDEB001FF66E /* path_provider_foundation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DFD85202BE2BDEA001FF66E /* path_provider_foundation.xcframework */; };
+		9DFD852C2BE2BDEB001FF66E /* SDWebImage.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DFD85212BE2BDEA001FF66E /* SDWebImage.xcframework */; };
+		9DFD852D2BE2BDEB001FF66E /* FlutterPluginRegistrant.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DFD85222BE2BDEA001FF66E /* FlutterPluginRegistrant.xcframework */; };
+		9DFD852E2BE2BDEB001FF66E /* image_picker_ios.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DFD85232BE2BDEA001FF66E /* image_picker_ios.xcframework */; };
+		9DFD852F2BE2BDEB001FF66E /* sqflite.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DFD85242BE2BDEB001FF66E /* sqflite.xcframework */; };
+		9DFD85302BE2BDEB001FF66E /* DKPhotoGallery.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DFD85252BE2BDEB001FF66E /* DKPhotoGallery.xcframework */; };
+		9DFD85312BE2BDEB001FF66E /* Flutter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DFD85262BE2BDEB001FF66E /* Flutter.xcframework */; };
+		9DFD85322BE2BDEB001FF66E /* App.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DFD85272BE2BDEB001FF66E /* App.xcframework */; };
+		9DFD85332BE2BDEB001FF66E /* SwiftyGif.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DFD85282BE2BDEB001FF66E /* SwiftyGif.xcframework */; };
+		9DFD85342BE2BDEB001FF66E /* file_picker.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DFD85292BE2BDEB001FF66E /* file_picker.xcframework */; };
+		9DFD85402BE2BDF0001FF66E /* FlutterPluginRegistrant.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9DFD85352BE2BDF0001FF66E /* FlutterPluginRegistrant.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9DFD85412BE2BDF0001FF66E /* Flutter.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9DFD85362BE2BDF0001FF66E /* Flutter.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9DFD85422BE2BDF0001FF66E /* DKImagePickerController.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9DFD85372BE2BDF0001FF66E /* DKImagePickerController.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9DFD85432BE2BDF0001FF66E /* image_picker_ios.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9DFD85382BE2BDF0001FF66E /* image_picker_ios.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9DFD85442BE2BDF0001FF66E /* path_provider_foundation.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9DFD85392BE2BDF0001FF66E /* path_provider_foundation.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9DFD85452BE2BDF0001FF66E /* sqflite.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9DFD853A2BE2BDF0001FF66E /* sqflite.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9DFD85462BE2BDF0001FF66E /* SDWebImage.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9DFD853B2BE2BDF0001FF66E /* SDWebImage.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9DFD85472BE2BDF0001FF66E /* SwiftyGif.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9DFD853C2BE2BDF0001FF66E /* SwiftyGif.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9DFD85482BE2BDF0001FF66E /* App.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9DFD853D2BE2BDF0001FF66E /* App.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9DFD85492BE2BDF0001FF66E /* file_picker.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9DFD853E2BE2BDF0001FF66E /* file_picker.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9DFD854A2BE2BDF0001FF66E /* DKPhotoGallery.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9DFD853F2BE2BDF0001FF66E /* DKPhotoGallery.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9DFD84AF2BE2BC17001FF66E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9DFD85402BE2BDF0001FF66E /* FlutterPluginRegistrant.xcframework in Embed Frameworks */,
+				9DFD85412BE2BDF0001FF66E /* Flutter.xcframework in Embed Frameworks */,
+				9DFD85422BE2BDF0001FF66E /* DKImagePickerController.xcframework in Embed Frameworks */,
+				9DFD85432BE2BDF0001FF66E /* image_picker_ios.xcframework in Embed Frameworks */,
+				9DFD85442BE2BDF0001FF66E /* path_provider_foundation.xcframework in Embed Frameworks */,
+				9DFD85452BE2BDF0001FF66E /* sqflite.xcframework in Embed Frameworks */,
+				9DFD85462BE2BDF0001FF66E /* SDWebImage.xcframework in Embed Frameworks */,
+				9DFD85472BE2BDF0001FF66E /* SwiftyGif.xcframework in Embed Frameworks */,
+				9DFD85482BE2BDF0001FF66E /* App.xcframework in Embed Frameworks */,
+				9DFD85492BE2BDF0001FF66E /* file_picker.xcframework in Embed Frameworks */,
+				9DFD854A2BE2BDF0001FF66E /* DKPhotoGallery.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9DFD84822BE2B94F001FF66E /* PresentFlutterModuleB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PresentFlutterModuleB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DFD84852BE2B94F001FF66E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9DFD84872BE2B94F001FF66E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9DFD84892BE2B94F001FF66E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9DFD848C2BE2B94F001FF66E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9DFD848E2BE2B950001FF66E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DFD84912BE2B950001FF66E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9DFD84932BE2B950001FF66E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DFD851F2BE2BDEA001FF66E /* DKImagePickerController.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = DKImagePickerController.xcframework; path = ../../../swim/Swimple/some/path/MyApp/Flutter/Release/DKImagePickerController.xcframework; sourceTree = "<group>"; };
+		9DFD85202BE2BDEA001FF66E /* path_provider_foundation.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = path_provider_foundation.xcframework; path = ../../../swim/Swimple/some/path/MyApp/Flutter/Release/path_provider_foundation.xcframework; sourceTree = "<group>"; };
+		9DFD85212BE2BDEA001FF66E /* SDWebImage.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SDWebImage.xcframework; path = ../../../swim/Swimple/some/path/MyApp/Flutter/Release/SDWebImage.xcframework; sourceTree = "<group>"; };
+		9DFD85222BE2BDEA001FF66E /* FlutterPluginRegistrant.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FlutterPluginRegistrant.xcframework; path = ../../../swim/Swimple/some/path/MyApp/Flutter/Release/FlutterPluginRegistrant.xcframework; sourceTree = "<group>"; };
+		9DFD85232BE2BDEA001FF66E /* image_picker_ios.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = image_picker_ios.xcframework; path = ../../../swim/Swimple/some/path/MyApp/Flutter/Release/image_picker_ios.xcframework; sourceTree = "<group>"; };
+		9DFD85242BE2BDEB001FF66E /* sqflite.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = sqflite.xcframework; path = ../../../swim/Swimple/some/path/MyApp/Flutter/Release/sqflite.xcframework; sourceTree = "<group>"; };
+		9DFD85252BE2BDEB001FF66E /* DKPhotoGallery.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = DKPhotoGallery.xcframework; path = ../../../swim/Swimple/some/path/MyApp/Flutter/Release/DKPhotoGallery.xcframework; sourceTree = "<group>"; };
+		9DFD85262BE2BDEB001FF66E /* Flutter.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:S8QB4VV633:FLUTTER.IO LLC"; lastKnownFileType = wrapper.xcframework; name = Flutter.xcframework; path = ../../../swim/Swimple/some/path/MyApp/Flutter/Release/Flutter.xcframework; sourceTree = "<group>"; };
+		9DFD85272BE2BDEB001FF66E /* App.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = App.xcframework; path = ../../../swim/Swimple/some/path/MyApp/Flutter/Release/App.xcframework; sourceTree = "<group>"; };
+		9DFD85282BE2BDEB001FF66E /* SwiftyGif.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SwiftyGif.xcframework; path = ../../../swim/Swimple/some/path/MyApp/Flutter/Release/SwiftyGif.xcframework; sourceTree = "<group>"; };
+		9DFD85292BE2BDEB001FF66E /* file_picker.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = file_picker.xcframework; path = ../../../swim/Swimple/some/path/MyApp/Flutter/Release/file_picker.xcframework; sourceTree = "<group>"; };
+		9DFD85352BE2BDF0001FF66E /* FlutterPluginRegistrant.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FlutterPluginRegistrant.xcframework; path = ../../../swim/Swimple/some/path/MyApp/Flutter/Release/FlutterPluginRegistrant.xcframework; sourceTree = "<group>"; };
+		9DFD85362BE2BDF0001FF66E /* Flutter.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:S8QB4VV633:FLUTTER.IO LLC"; lastKnownFileType = wrapper.xcframework; name = Flutter.xcframework; path = ../../../swim/Swimple/some/path/MyApp/Flutter/Release/Flutter.xcframework; sourceTree = "<group>"; };
+		9DFD85372BE2BDF0001FF66E /* DKImagePickerController.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = DKImagePickerController.xcframework; path = ../../../swim/Swimple/some/path/MyApp/Flutter/Release/DKImagePickerController.xcframework; sourceTree = "<group>"; };
+		9DFD85382BE2BDF0001FF66E /* image_picker_ios.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = image_picker_ios.xcframework; path = ../../../swim/Swimple/some/path/MyApp/Flutter/Release/image_picker_ios.xcframework; sourceTree = "<group>"; };
+		9DFD85392BE2BDF0001FF66E /* path_provider_foundation.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = path_provider_foundation.xcframework; path = ../../../swim/Swimple/some/path/MyApp/Flutter/Release/path_provider_foundation.xcframework; sourceTree = "<group>"; };
+		9DFD853A2BE2BDF0001FF66E /* sqflite.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = sqflite.xcframework; path = ../../../swim/Swimple/some/path/MyApp/Flutter/Release/sqflite.xcframework; sourceTree = "<group>"; };
+		9DFD853B2BE2BDF0001FF66E /* SDWebImage.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SDWebImage.xcframework; path = ../../../swim/Swimple/some/path/MyApp/Flutter/Release/SDWebImage.xcframework; sourceTree = "<group>"; };
+		9DFD853C2BE2BDF0001FF66E /* SwiftyGif.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SwiftyGif.xcframework; path = ../../../swim/Swimple/some/path/MyApp/Flutter/Release/SwiftyGif.xcframework; sourceTree = "<group>"; };
+		9DFD853D2BE2BDF0001FF66E /* App.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = App.xcframework; path = ../../../swim/Swimple/some/path/MyApp/Flutter/Release/App.xcframework; sourceTree = "<group>"; };
+		9DFD853E2BE2BDF0001FF66E /* file_picker.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = file_picker.xcframework; path = ../../../swim/Swimple/some/path/MyApp/Flutter/Release/file_picker.xcframework; sourceTree = "<group>"; };
+		9DFD853F2BE2BDF0001FF66E /* DKPhotoGallery.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = DKPhotoGallery.xcframework; path = ../../../swim/Swimple/some/path/MyApp/Flutter/Release/DKPhotoGallery.xcframework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DFD847F2BE2B94F001FF66E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DFD85312BE2BDEB001FF66E /* Flutter.xcframework in Frameworks */,
+				9DFD852B2BE2BDEB001FF66E /* path_provider_foundation.xcframework in Frameworks */,
+				9DFD85322BE2BDEB001FF66E /* App.xcframework in Frameworks */,
+				9DFD852E2BE2BDEB001FF66E /* image_picker_ios.xcframework in Frameworks */,
+				9DFD852F2BE2BDEB001FF66E /* sqflite.xcframework in Frameworks */,
+				9DFD852C2BE2BDEB001FF66E /* SDWebImage.xcframework in Frameworks */,
+				9DFD85342BE2BDEB001FF66E /* file_picker.xcframework in Frameworks */,
+				9DFD85332BE2BDEB001FF66E /* SwiftyGif.xcframework in Frameworks */,
+				9DFD852D2BE2BDEB001FF66E /* FlutterPluginRegistrant.xcframework in Frameworks */,
+				9DFD85302BE2BDEB001FF66E /* DKPhotoGallery.xcframework in Frameworks */,
+				9DFD852A2BE2BDEB001FF66E /* DKImagePickerController.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DFD84792BE2B94F001FF66E = {
+			isa = PBXGroup;
+			children = (
+				9DFD85272BE2BDEB001FF66E /* App.xcframework */,
+				9DFD853D2BE2BDF0001FF66E /* App.xcframework */,
+				9DFD851F2BE2BDEA001FF66E /* DKImagePickerController.xcframework */,
+				9DFD85252BE2BDEB001FF66E /* DKPhotoGallery.xcframework */,
+				9DFD853F2BE2BDF0001FF66E /* DKPhotoGallery.xcframework */,
+				9DFD85292BE2BDEB001FF66E /* file_picker.xcframework */,
+				9DFD85372BE2BDF0001FF66E /* DKImagePickerController.xcframework */,
+				9DFD853E2BE2BDF0001FF66E /* file_picker.xcframework */,
+				9DFD85262BE2BDEB001FF66E /* Flutter.xcframework */,
+				9DFD85362BE2BDF0001FF66E /* Flutter.xcframework */,
+				9DFD85222BE2BDEA001FF66E /* FlutterPluginRegistrant.xcframework */,
+				9DFD85232BE2BDEA001FF66E /* image_picker_ios.xcframework */,
+				9DFD85202BE2BDEA001FF66E /* path_provider_foundation.xcframework */,
+				9DFD85212BE2BDEA001FF66E /* SDWebImage.xcframework */,
+				9DFD853B2BE2BDF0001FF66E /* SDWebImage.xcframework */,
+				9DFD85242BE2BDEB001FF66E /* sqflite.xcframework */,
+				9DFD85282BE2BDEB001FF66E /* SwiftyGif.xcframework */,
+				9DFD85352BE2BDF0001FF66E /* FlutterPluginRegistrant.xcframework */,
+				9DFD85382BE2BDF0001FF66E /* image_picker_ios.xcframework */,
+				9DFD85392BE2BDF0001FF66E /* path_provider_foundation.xcframework */,
+				9DFD853A2BE2BDF0001FF66E /* sqflite.xcframework */,
+				9DFD853C2BE2BDF0001FF66E /* SwiftyGif.xcframework */,
+				9DFD84842BE2B94F001FF66E /* PresentFlutterModuleB */,
+				9DFD84832BE2B94F001FF66E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DFD84832BE2B94F001FF66E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DFD84822BE2B94F001FF66E /* PresentFlutterModuleB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DFD84842BE2B94F001FF66E /* PresentFlutterModuleB */ = {
+			isa = PBXGroup;
+			children = (
+				9DFD84852BE2B94F001FF66E /* AppDelegate.swift */,
+				9DFD84872BE2B94F001FF66E /* SceneDelegate.swift */,
+				9DFD84892BE2B94F001FF66E /* ViewController.swift */,
+				9DFD848B2BE2B94F001FF66E /* Main.storyboard */,
+				9DFD848E2BE2B950001FF66E /* Assets.xcassets */,
+				9DFD84902BE2B950001FF66E /* LaunchScreen.storyboard */,
+				9DFD84932BE2B950001FF66E /* Info.plist */,
+			);
+			path = PresentFlutterModuleB;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DFD84812BE2B94F001FF66E /* PresentFlutterModuleB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DFD84962BE2B950001FF66E /* Build configuration list for PBXNativeTarget "PresentFlutterModuleB" */;
+			buildPhases = (
+				9DFD847E2BE2B94F001FF66E /* Sources */,
+				9DFD847F2BE2B94F001FF66E /* Frameworks */,
+				9DFD84802BE2B94F001FF66E /* Resources */,
+				9DFD84AF2BE2BC17001FF66E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PresentFlutterModuleB;
+			productName = PresentFlutterModuleB;
+			productReference = 9DFD84822BE2B94F001FF66E /* PresentFlutterModuleB.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DFD847A2BE2B94F001FF66E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					9DFD84812BE2B94F001FF66E = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 9DFD847D2BE2B94F001FF66E /* Build configuration list for PBXProject "PresentFlutterModuleB" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DFD84792BE2B94F001FF66E;
+			productRefGroup = 9DFD84832BE2B94F001FF66E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DFD84812BE2B94F001FF66E /* PresentFlutterModuleB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DFD84802BE2B94F001FF66E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DFD848F2BE2B950001FF66E /* Assets.xcassets in Resources */,
+				9DFD84922BE2B950001FF66E /* Base in Resources */,
+				9DFD848D2BE2B94F001FF66E /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DFD847E2BE2B94F001FF66E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DFD848A2BE2B94F001FF66E /* ViewController.swift in Sources */,
+				9DFD84862BE2B94F001FF66E /* AppDelegate.swift in Sources */,
+				9DFD84882BE2B94F001FF66E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9DFD848B2BE2B94F001FF66E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DFD848C2BE2B94F001FF66E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9DFD84902BE2B950001FF66E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DFD84912BE2B950001FF66E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DFD84942BE2B950001FF66E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9DFD84952BE2B950001FF66E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DFD84972BE2B950001FF66E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S8YH22BDWN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter/Release",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PresentFlutterModuleB/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.hyer.design.mobile.add.flutter.module.PresentFlutterModuleB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DFD84982BE2B950001FF66E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S8YH22BDWN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter/Release",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PresentFlutterModuleB/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.hyer.design.mobile.add.flutter.module.PresentFlutterModuleB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DFD847D2BE2B94F001FF66E /* Build configuration list for PBXProject "PresentFlutterModuleB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DFD84942BE2B950001FF66E /* Debug */,
+				9DFD84952BE2B950001FF66E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DFD84962BE2B950001FF66E /* Build configuration list for PBXNativeTarget "PresentFlutterModuleB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DFD84972BE2B950001FF66E /* Debug */,
+				9DFD84982BE2B950001FF66E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DFD847A2BE2B94F001FF66E /* Project object */;
+}
